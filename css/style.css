@@ -1,0 +1,117 @@
+body {
+	background-color: #f8f8f8;
+	font-family: "Roboto",Arial,'Microsoft YaHei',sans-serif;
+}
+
+header {
+	background-color: #525c68;
+}
+
+footer {
+	background-color: #525c68;
+}
+
+
+#headerstyle {
+	width: 90%;
+	border-bottom: 50px #525c68 solid;
+	border-top: 50px #525c68 solid;
+	margin: 5%;
+	margin-top: 0%;
+	background-color: #525c68;
+}
+
+header div h1{
+	display: inline;
+	color: #f8f8f8;
+	font-size: 4em;
+}
+
+nav, ul {
+	display: inline;
+}
+
+nav li{
+	display: inline;
+	margin: 1%;
+}
+
+nav ul:first-child{
+	margin-left: 20%;
+}
+
+nav li a{
+	color: #f8f8f8;
+	font-size: 1em;
+	text-decoration: none;
+	padding-bottom: 1%;
+}
+
+nav li a:active{
+	color: #3b3c41;
+	border-bottom: #3b3c41 solid 2px;
+}
+
+nav li a:hover{
+	border-bottom: #f8f8f8 solid 2px;
+}
+
+section div{
+	display: inline-block;
+	width: 28%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+
+section div:nth-child(3n-2){
+	display: inline-block;
+	margin-left: 6%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+
+.cover {
+	width: 100%
+}
+
+footer div img{
+	width: 100%;
+}
+
+#icon1 {
+	width: 6%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	margin-left: 27%;
+	margin-right: 13%; 
+}
+
+#icon2 {
+	width: 6%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	margin-left: 0%;
+	margin-right: 0%; 
+}
+
+#icon3 {
+	width: 6%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 5%; 
+	margin-left: 13%;
+	margin-right: 27%; 
+}
+
+
+.copyright {
+	color: #f8f8f8;
+	font-size: 0.5em;
+	border-bottom: 25px solid #525c68; 
+	margin-left: 40%;
+	display: block;
+	background-color: #525c68;
+}
