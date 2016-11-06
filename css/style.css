@@ -115,3 +115,21 @@ footer div img{
 	display: block;
 	background-color: #525c68;
 }
+
+@media screen and (min-width:1000px){
+	header h1{
+	
+	}
+	img{
+	display: block;
+	}
+}
+
+@media screen and (min-width:800px){
+	header h1{
+	
+	}
+	img{
+	display: block;
+	}
+}
