@@ -9,11 +9,6 @@ body{
 	display: table;
 }
 
-.table {
-	width: 100%;
-	display: table;
-}
-
 .tableimg{
 	width: 50%;
 	display: table-cell;
